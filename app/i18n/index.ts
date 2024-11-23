@@ -25,8 +25,19 @@ export async function useTranslation<
   options: { keyPrefix?: KPrefix } = {},
 ) {
   const i18nextInstance = await initI18next(lng, Array.isArray(ns) ? ns as string[] : ns as string);
+  const nsStr: FlatNamespace = Array.isArray(ns) ? ns[0] : ns;
   return {
-    t: Array.isArray(ns) ? i18nextInstance.getFixedT(lng, ns[0], options.keyPrefix) : i18nextInstance.getFixedT(lng, ns as FlatNamespace, options.keyPrefix),
+    lng,
+    ns: nsStr,
+    t: i18nextInstance.getFixedT(lng, nsStr, options.keyPrefix),
     i18n: i18nextInstance,
+    keyPrefix: options.keyPrefix,
   };
+}
+
+export type I18n = Awaited<ReturnType<typeof useTranslation>>;
+
+export async function i18nWithNs(v: I18n, ns: string): Promise<I18n> {
+  const {lng, keyPrefix} = v;
+  return useTranslation(lng, ns, {keyPrefix});
 }

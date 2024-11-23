@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  gap: 25px;
+}
+
+.navLink {
+  color: #292828;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: rgb(25, 90, 255);
+}
