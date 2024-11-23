@@ -8,9 +8,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({params}: {
-  params: {
+  params: Promise<{
     lng: string;
-  };
+  }>;
 }) {
   let {lng} = await params;
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
@@ -26,9 +26,9 @@ export default async function RootLayout(
     params,
   }: {
     children: React.ReactNode;
-    params: {
+    params: Promise<{
       lng: string;
-    };
+    }>;
   }) {
   const {lng} = await params;
   return (
