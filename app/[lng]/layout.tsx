@@ -14,7 +14,7 @@ export async function generateMetadata({params}: {
 }) {
   let {lng} = await params;
   if (languages.indexOf(lng) < 0) lng = fallbackLng;
-  const {t} = await useTranslation(lng);
+  const {t} = await useTranslation(lng, 'common');
   return {
     title: t('title'),
   };
