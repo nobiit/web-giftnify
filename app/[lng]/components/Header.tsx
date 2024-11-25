@@ -10,7 +10,7 @@ import {I18n} from '@i18n';
 export const Header: React.FC<{ i18n: I18n }> = ({i18n}) => {
   return (
     <header className={styles.header}>
-      <Image src={logo} alt={`${APP_NAME} Logo`} width="146" height="35" className={styles.logo}/>
+      <Image src={logo} alt={`${APP_NAME} Logo`} className={styles.logo}/>
       <Navigation i18n={i18n}/>
     </header>
   );
