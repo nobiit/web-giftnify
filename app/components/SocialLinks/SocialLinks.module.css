@@ -1,0 +1,38 @@
+.socialLinks {
+  margin-top: 69px;
+}
+
+.title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .socialLinks {
+    margin-top: 40px;
+  }
+}

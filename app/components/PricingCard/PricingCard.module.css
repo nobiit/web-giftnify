@@ -1,0 +1,106 @@
+.pricingCard {
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  box-shadow: 0px 1.857px 15.507px rgba(19, 38, 62, 0.15);
+  padding: 25px 22px 40px;
+  transition: transform 0.3s ease;
+}
+
+.pricingCard:hover {
+  transform: translateY(-8px);
+}
+
+.highlighted {
+  background: linear-gradient(0deg, #e8cc8d 0%, #ffebbd 100%);
+  border-color: #fff1d2;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.title {
+  color: #000;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 18px;
+}
+
+.price {
+  color: rgb(25, 90, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 5px;
+}
+
+.currency {
+  font-size: 21px;
+  margin-left: 4px;
+}
+
+.freeGames {
+  color: #292828;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.decorativeImage {
+  width: 113px;
+  height: auto;
+  margin-top: 29px;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #292828;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.checkmark {
+  color: rgb(25, 90, 255);
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.buyButton {
+  background-color: rgb(25, 90, 255);
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 38px;
+  padding: 12px;
+  width: 184px;
+  transition: background-color 0.2s ease;
+}
+
+.buyButton:hover {
+  background-color: rgb(20, 72, 204);
+}
+
+@media (max-width: 991px) {
+  .pricingCard {
+    margin-top: 32px;
+    padding: 20px;
+  }
+
+  .buyButton {
+    width: 100%;
+  }
+}

@@ -1,0 +1,101 @@
+.contactForm {
+  width: 100%;
+  max-width: 600px;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.formRow {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.formRow .formGroup {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.label {
+  display: block;
+  color: #9c9c98;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 42px;
+  margin-bottom: 4px;
+}
+
+.required {
+  color: #d42e2e;
+  margin-left: 4px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #edeff3;
+  background-color: #fff;
+  padding: 12px 25px;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: rgb(25, 90, 255);
+}
+
+.error {
+  border-color: #d42e2e;
+}
+
+.errorMessage {
+  color: #d42e2e;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitButton {
+  background-color: #292828;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 70px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 43px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover {
+  background-color: #1a1a1a;
+}
+
+.submitButton:disabled {
+  background-color: #9c9c98;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .formRow {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .submitButton {
+    width: 100%;
+    padding: 12px 20px;
+  }
+}
