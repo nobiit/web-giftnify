@@ -1,4 +1,1 @@
-export interface NavItem {
-  label: string;
-  href: string;
-}
+export * from './nav';
