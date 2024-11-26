@@ -6,6 +6,17 @@
 
 .embla__container {
   display: flex;
+
+  &.fill-height {
+    height: 100%;
+
+    .embla__slide {
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+  }
 }
 
 .embla__slide {
@@ -13,7 +24,6 @@
 
   img {
     width: 100%;
-    height: 100%;
     object-position: center;
   }
 }
