@@ -1,5 +1,7 @@
 .embla {
   overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 .embla__container {
@@ -11,7 +13,7 @@
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-position: center;
   }
 }

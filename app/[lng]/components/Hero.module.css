@@ -30,6 +30,11 @@
   object-fit: cover;
 }
 
+.overlay {
+  position: absolute;
+  top: 25%;
+}
+
 .heroTitle {
   color: #fff;
   font-size: 32px;
