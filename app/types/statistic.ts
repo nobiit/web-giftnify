@@ -1,6 +1,5 @@
 export interface StatisticProps {
-  icon: string;
-  count: string;
+  label: string;
   description: string;
 }
 

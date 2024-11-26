@@ -26,7 +26,7 @@
   margin: auto 0;
 }
 
-.statisticIcon {
+.statisticIconLeft, .statisticIconRight {
   aspect-ratio: 0.71;
   object-fit: contain;
   object-position: center;
@@ -40,10 +40,11 @@
   align-items: flex-start;
 }
 
-.statisticCount {
+.statisticLabel {
   font-size: 51px;
   font-weight: 800;
   line-height: 1;
+  width: max-content;
 }
 
 .statisticDescription {
@@ -51,6 +52,7 @@
   font-weight: 600;
   line-height: 1;
   margin-top: -9px;
+  width: max-content;
 }
 
 @media (max-width: 600px) {
@@ -59,7 +61,7 @@
     margin-top: 40px;
   }
 
-  .statisticCount {
+  .statisticLabel {
     font-size: 40px;
   }
 }

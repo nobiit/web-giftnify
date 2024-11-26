@@ -16,11 +16,8 @@ export const Hero: React.FC<{ i18n: I18n }> = async ({i18n}) => {
         className={styles.heroBackground}
       />
       <main className={styles.heroContent}>
-        <h1 className={styles.mainTitle}>
-          Tạo Minigame Tương Tác Ngay Tại Cửa Hàng
-        </h1>
-        <h2 className={styles.subTitle}>Tạo Game Dễ Dàng Đột Phá Doanh Số</h2>
-
+        <h1 className={styles.mainTitle}>{t('title')}</h1>
+        <h2 className={styles.subTitle}>{t('subtitle')}</h2>
         <Statistic/>
       </main>
     </section>
