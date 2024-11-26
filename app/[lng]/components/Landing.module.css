@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.hero {
+.landing {
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.hero::before {
+.landing::before {
   content: '';
   position: absolute;
   top: 0;
@@ -21,7 +21,7 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.heroBackground {
+.landingBackground {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,7 +35,7 @@
   top: 25%;
 }
 
-.heroTitle {
+.landingTitle {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
