@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Statistic.module.css';
-import {StatisticProps} from '@types';
+import {StatisticItem} from '@types';
 import Image from 'next/image';
 import left from '@assets/images/statistic-left.png';
 import right from '@assets/images/statistic-right.png';
 
-export const StatisticCard: React.FC<StatisticProps> = (
+export const StatisticCard: React.FC<StatisticItem> = (
   {
     label,
     description,

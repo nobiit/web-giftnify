@@ -1,6 +1,6 @@
-import {StatisticProps} from '@types';
+import {StatisticItem} from '@types';
 
-export const STATISTICS_ITEMS: StatisticProps[] = [
+export const STATISTICS_ITEMS: StatisticItem[] = [
   {
     label: '100+',
     description: 'label_customer',

@@ -1,4 +1,4 @@
-export interface StatisticProps {
+export interface StatisticItem {
   label: string;
   description: string;
 }
