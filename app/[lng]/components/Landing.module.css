@@ -43,7 +43,7 @@
   max-width: 800px;
   margin: 0 0 16px;
   position: relative;
-  font-family: Montserrat, serif;
+  font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
   -webkit-text-stroke-width: thin;
   -webkit-text-stroke-color: #333;
   z-index: 1;
