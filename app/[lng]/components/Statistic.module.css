@@ -8,6 +8,8 @@
   font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .statisticsImage {
@@ -22,9 +24,7 @@
 .statisticCard {
   align-self: stretch;
   display: flex;
-  min-width: 240px;
   align-items: flex-start;
-  width: 243px;
   margin: auto 0;
 }
 
