@@ -26,6 +26,11 @@
   align-items: center;
 }
 
+.mainTitle, .subTitle {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .mainTitle {
   color: rgb(1, 224, 190);
   font: 700 32px/1 Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
