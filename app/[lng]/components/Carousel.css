@@ -8,4 +8,10 @@
 
 .embla__slide {
   flex: 0 0 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-position: center;
+  }
 }
