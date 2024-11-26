@@ -13,12 +13,14 @@ export const Hero: React.FC<{ i18n: I18n }> = async ({i18n}) => {
   return (
     <section className={styles.hero}>
       <Carousel src={bg1} items={[bg1, bg2, bg3]} alt="Hero Carousel" className={styles.heroBackground}/>
-      <h1 className={styles.heroTitle}>{t('title')}</h1>
-      <button className={styles.ctaButton}>
-        {t('button')}
-        &nbsp;
-        <NextIcon/>
-      </button>
+      <div className={styles.overlay}>
+        <h1 className={styles.heroTitle}>{t('title')}</h1>
+        <button className={styles.ctaButton}>
+          {t('button')}
+          &nbsp;
+          <NextIcon/>
+        </button>
+      </div>
     </section>
   );
 };
