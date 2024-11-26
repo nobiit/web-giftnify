@@ -1,4 +1,4 @@
-export interface PartnerLogoProps {
-  logoUrl: string;
-  alt: string;
+export interface PartnerItem {
+  name: string;
+  image: string;
 }

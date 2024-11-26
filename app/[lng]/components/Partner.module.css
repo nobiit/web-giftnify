@@ -1,0 +1,77 @@
+.partnersSection {
+  display: flex;
+  margin-top: 89px;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+.partnersGrid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.partnerCard {
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 16px rgba(19, 38, 62, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 165px;
+  height: 165px;
+  padding: 0 23px;
+}
+
+.partnerLogo {
+  aspect-ratio: 4.48;
+  object-fit: contain;
+  object-position: center;
+  width: 121px;
+}
+
+.partnerArrow {
+  aspect-ratio: 0.58;
+  object-fit: contain;
+  object-position: center;
+  width: 14px;
+  border-radius: 1px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+@media (max-width: 600px) {
+  .heroSection {
+    max-width: 100%;
+    padding: 0 20px 100px;
+  }
+
+  .heroContent {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .mainTitle,
+  .subTitle {
+    max-width: 100%;
+  }
+
+  .statisticsContainer {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .statisticLabel {
+    font-size: 40px;
+  }
+
+  .partnersSection {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .partnerCard {
+    padding: 0 20px;
+  }
+}
