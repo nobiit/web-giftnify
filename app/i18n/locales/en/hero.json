@@ -1,4 +1,7 @@
 {
   "title": "Create Interactive Minigames Right At The Store",
-  "subtitle": "Create Games That Easily Breakthrough Sales"
+  "subtitle": "Create Games That Easily Breakthrough Sales",
+  "label_customer": "Customer",
+  "label_game": "Game created",
+  "label_play": "Plays and favorites"
 }

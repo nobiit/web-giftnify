@@ -1,4 +1,7 @@
 {
   "title": "Tạo Minigame Tương Tác Ngay Tại Cửa Hàng",
-  "subtitle": "Tạo Game Dễ Dàng Đột Phá Doanh Số"
+  "subtitle": "Tạo Game Dễ Dàng Đột Phá Doanh Số",
+  "label_customer": "Khách hàng",
+  "label_game": "Game được tạo",
+  "label_play": "Lượt chơi và yêu thích"
 }

@@ -18,7 +18,7 @@ export const Hero: React.FC<{ i18n: I18n }> = async ({i18n}) => {
       <main className={styles.heroContent}>
         <h1 className={styles.mainTitle}>{t('title')}</h1>
         <h2 className={styles.subTitle}>{t('subtitle')}</h2>
-        <Statistic/>
+        <Statistic i18n={i18n}/>
       </main>
     </section>
   );
