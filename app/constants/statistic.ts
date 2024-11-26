@@ -1,6 +1,6 @@
 import {StatisticItem} from '@types';
 
-export const STATISTICS_ITEMS: StatisticItem[] = [
+export const STATISTIC_ITEMS: StatisticItem[] = [
   {
     label: '100+',
     description: 'label_customer',
