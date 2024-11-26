@@ -9,8 +9,8 @@ export const Statistic: React.FC<{ i18n: I18n }> = async ({i18n}) => {
 
   return (
     <div className={styles.statisticsContainer}>
-      {STATISTIC_ITEMS.map(({label, description}, index) => (
-        <StatisticCard key={index} label={t(label)} description={t(description)}/>
+      {STATISTIC_ITEMS.map(({label, description}, i) => (
+        <StatisticCard key={i} label={t(label)} description={t(description)}/>
       ))}
     </div>
   );
