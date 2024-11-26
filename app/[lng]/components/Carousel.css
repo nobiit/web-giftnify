@@ -6,17 +6,6 @@
 
 .embla__container {
   display: flex;
-
-  &.fill-height {
-    height: 100%;
-
-    .embla__slide {
-      img {
-        height: 100%;
-        width: auto;
-      }
-    }
-  }
 }
 
 .embla__slide {
@@ -25,5 +14,16 @@
   img {
     width: 100%;
     object-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .embla__container {
+    height: 100%;
+  }
+
+  .embla__slide img {
+    height: 100%;
+    width: auto;
   }
 }
