@@ -1,15 +1,9 @@
-.partnersSection {
+.partnerSection {
   display: flex;
   margin-top: 89px;
   width: 100%;
   align-items: center;
   gap: 20px;
-}
-
-.partnersGrid {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
 }
 
 .partnerCard {
@@ -66,7 +60,7 @@
     font-size: 40px;
   }
 
-  .partnersSection {
+  .partnerSection {
     max-width: 100%;
     margin-top: 40px;
   }

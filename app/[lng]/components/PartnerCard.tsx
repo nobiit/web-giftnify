@@ -6,11 +6,11 @@ import Image from 'next/image';
 export const PartnerCard: React.FC<PartnerItem> = ({name, image}) => {
   return (
     <article className={styles.partnerCard}>
-      <Image
-        src={image}
-        alt={name}
-        className={styles.partnerLogo}
-      />
+      {/*<Image*/}
+      {/*  src={image}*/}
+      {/*  alt={name}*/}
+      {/*  className={styles.partnerLogo}*/}
+      {/*/>*/}
     </article>
   );
 };
